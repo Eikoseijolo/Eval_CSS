@@ -1,0 +1,253 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+/*-----------Debut HEADER-----------*/
+
+
+#fb{
+    width: 10px;
+    height: 20px;
+    }
+#twitter{
+    width: 24.95;
+    height: 20.28px;
+    }
+#sociaux{
+    display: flex;
+    }
+header{
+    background-color: rgba(255, 255, 255, 1);
+    }
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    }
+header img{
+    height: 336px;
+    width: 100%;
+    object-fit: cover;
+    }
+header nav ul{
+    display: flex;
+    }
+header nav a{
+    display: block;
+    padding: 2.563rem 1rem;
+    color: rgba(159, 159, 159, 1);
+    }
+    header nav a:hover{
+    color: rgba(0, 0, 0, 1);
+    -ms-transform: scale(2); 
+    -webkit-transform: scale(2); 
+    transform: scale(2);
+    }
+
+/*-----------Fin HEADER-----------*/
+/*-----------Debut MAIN-----------*/
+
+/*block center*/
+
+main{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    margin: auto;
+}
+#blockcentre{
+    width: 100%;
+    max-width: 1250px;
+    padding-left: 16.188rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+.racoon{
+    width: 100%;
+    max-width: 364px;
+    margin: 0 1.125rem;
+    height: 100%;
+    max-height: 203px;
+}
+p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+}
+main section article{
+    margin-top: 1.875rem;
+    display: flex;
+    padding-left: 0.688rem;
+    padding-top: 2.875rem;
+    padding-right: 0.461rem;
+    margin: auto;
+}
+main section article h2{
+    padding-top: 0.475rem;
+    padding-bottom: 0.969rem;
+}
+main p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.870588);
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*Fin block center*/
+/*block rigth*/
+
+#blockdroit{
+    display: flex;
+    background: #FBFBFB;
+}
+#blockdroit ul li a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+    color: #9F9F9F;
+}
+#blockdroit ul li a:hover{
+    color: rgba(0, 0, 0, 1);
+    }
+.titre1{
+    padding-bottom: 2.269rem;
+    padding-top: 2.875rem;
+}
+.barre{ 
+    border-top: #C4C4C4 solid 1px;
+    margin: auto;
+    padding-top: 3.063rem;
+    max-width: 1200px;
+}
+.barre h2{
+    padding-top: 0;
+    padding-bottom: 2.269rem;
+}
+#blockdroit ul li{
+    padding-bottom: 1.063rem;
+}
+#listrigth{
+    margin-left: 3.594rem;
+    width: 318px;
+}
+/* FIN block rigth*/
+
+/*-----------Responsive Design mobil 1250px-----------*/
+@media screen and (max-width:1250px) {
+ 
+/*Block central*/
+#blockcentre{
+padding-left: 0;
+}
+main {
+display: flex;
+flex-direction: column;
+}
+#article1{
+padding-left: 8.625rem;
+padding-right: 16.5rem;
+}
+
+/*Block Droit(Bas)*/
+#blockdroit{
+padding-top: 4.475rem;
+display: flex,none;
+}
+#listrigth{
+margin-left: 0;
+width: 100%;
+display: flex;
+justify-content: center;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0.26%, rgba(0, 0, 0, 0) 9.39%);
+}
+#categorie1{
+width: 50%;
+}
+}
+/*-----------Responsive Design mobil 768px-----------*/
+@media screen and (max-width:768px) {
+
+/* Navbar */
+
+header nav{
+    flex-direction: column;
+}
+
+/*Block centre (main)*/
+
+#article1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 1.25rem;
+}
+#blockcentre{
+    padding-left: 1.063rem;
+    padding-right: 0.313rem;
+    width: 90%;
+}
+.racoon{
+margin: 0;
+height: 108px;
+max-width: 345px;
+object-fit: cover;
+padding-top: 1rem;
+}
+.date{
+text-align: center;
+}
+
+/*Block Droit (footer)*/
+
+#listrigth{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#categorie2{
+width: 50%;
+}
+main ul{
+text-align: center;
+}
+main h2{
+text-align: center;
+}
+}
