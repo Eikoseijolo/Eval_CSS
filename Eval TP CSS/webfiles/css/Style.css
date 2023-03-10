@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
 margin: 0;
 padding: 0;
@@ -29,6 +30,7 @@ text-decoration: none;
 }
 header nav ul li:hover{
 text-decoration: underline;
+color: aliceblue;
 }
 header nav img{
 width: 124px;
@@ -39,30 +41,27 @@ height: 80px;
 /*Debut Main*/
 
 main{
-margin-top: 112px;
-margin-left: 260px;
-margin-right: 260px;
-margin-bottom: 120px;
 max-width: 1400px;
+margin: auto;
 }
 main h1{
 margin: auto;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 2.5rem;
 line-height: 60px;
 letter-spacing: 0.06rem;
 text-transform: uppercase;
 color: #34A58A;
-margin-bottom: 56px;
-margin-left: 12px;
+margin-bottom: 3.5rem;
+margin-left: 0.75rem;
 }
 main img{
 object-fit: cover;
 width: 100%;
 border-radius: 10px;
-margin-bottom: 112px;
+margin-bottom: 7rem;
 }
 #block{
 display: flex;
@@ -82,13 +81,14 @@ text-decoration: underline;
 text-decoration: underline;
 }
 #map{
-margin-left: 93.68px;
+margin-left: 5.855rem;
+padding-bottom: 2rem;
 }
 main h2{
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-font-size: 36px;
+font-size: 2.25rem;
 line-height: 36px;
 letter-spacing: 0.06em;
 color: #6B5B54;
@@ -106,7 +106,7 @@ font-size: 20px;
 line-height: 25px;
 letter-spacing: 0.05em;
 color: #000000;
-padding-bottom: 66px;
+padding-bottom: 4.125rem;
 }
 #lieuicone{
 height: 20.2px;
@@ -114,11 +114,11 @@ width: 16.33px;
 margin: 0;
 }
 #lienmap{
-margin-left: 22.4px;
+margin-left: 1.4rem;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 text-decoration: none;
 letter-spacing: 0.06em;
@@ -133,8 +133,8 @@ max-width: 100%;
 height: 83px;
 }
 #divadresse{
-margin-bottom: 29px;
-margin-top: 21px;
+margin-bottom: 1.813rem;
+margin-top: 1.313rem;
 }
 #mailicone{
 height: 20px;
@@ -142,11 +142,11 @@ width: 25.12px;
 margin: 0;
 }
 #lienmail{
-margin-left: 10.47px;
+margin-left: 0.654rem;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 text-decoration: none;
@@ -161,11 +161,11 @@ width: 21.8px;
 margin: 0;
 }
 #lientel{
-margin-left: 13.65px;
+margin-left: 1.313rem;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.1em;
 text-decoration: none;
@@ -176,12 +176,17 @@ color: rgba(52, 165, 138, 1);
 /*Debut Footer*/
 
 footer{
-display: flex;
 background: #345765;
-height: 466.74px;
+padding-top: 2rem;
+padding-bottom: 2rem;
 }
 footer section{
 width: 50%;
+}
+#foot1{
+display: flex;
+max-width: 1400px;
+margin: auto;
 }
 footer a{
 font-family: 'Lato';
@@ -198,88 +203,76 @@ margin-bottom: 32px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 22px;
+font-size: 1.375rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 text-decoration-line: underline;
 color: #FFFFFF;
 }
 #partleft{
-width: 40%;
 max-width: 961px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding-left: 200px;
 }
 #partrigth{
 width: 40%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding-left: 31px;
 }
 #logofoot{
 display: flex;
-width: 20%;
 flex-direction: column;
-width: 115px;
-height: 115px;
-margin-right: 358px;
-}
-#logo1{
-margin-top: 120px;
-}
-#logo2{
-margin-bottom: 70px;
 }
 #endbar{
-margin-top: 2px;
+margin-top: 0.125rem;
 background: #345765;
 text-align: center;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 300;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-padding-top: 21px;
-padding-bottom: 19px;
+padding-top: 1.313rem;
+padding-bottom: 1.188rem;
 }
 #lientelfoot{
 text-decoration: none;
-margin-left: 16px;
+margin-left: 1rem;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 color: rgba(255, 255, 255, 1);
 }
-#divmailfooter{
-margin-top: 16px;
-margin-bottom: 32px;
+#divmailfoot{
+margin-top: 1rem;
+margin-bottom: 2rem;
 }
 #lienmailfoot{
 text-decoration: none;
-margin-left: 13px;
+margin-left: 0.813rem;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 color: rgba(255, 255, 255, 1);
+
 }
 #lienmapfoot{
 text-decoration: none;
-margin-left: 17px;
+margin-left: 1.063rem;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 color: rgba(255, 255, 255, 1);
@@ -289,12 +282,12 @@ color: white;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 25px;
 letter-spacing: 0.06em;
 }
 .linkfoot1{
-margin-bottom: 47px;
+margin-bottom: 2.938rem;
 color: white;
 }
 footer section div a:hover{
@@ -332,7 +325,7 @@ main{
 margin: 0;
 }
 main h1{
-font-size: 30px;
+font-size: 1.875rem;
 text-align: center;
 }
 #block{
@@ -342,7 +335,7 @@ align-items: center;
 }
 #map{
 margin: auto;
-padding-top: 50px;
+padding-top: 3.125rem;
 }
 #carte{
 text-align: center;
@@ -359,73 +352,74 @@ margin: 0;
 }
 
 /*-----------Responsive Design mobile 768px-----------*/
+
 @media screen and (max-width:768px) {
-    .navbar-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 50%;
-        height: 100%;
-        }    
-        .navbar-menu a {
-        font-size: 18px;
-        text-decoration: none;
-        color: white;
-        padding: 0 10px;
-        }    
-        .navbar-toggle {
-        display: none;
-        cursor: pointer;
-        }    
-        .navbar-toggle span {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: white;
-        margin: 5px;
-        transition: transform 0.3s ease-in-out;
-        }
-        .navbar-menu {
-        display: none;
-        }
-        .navbar-toggle {
-        display: block;
-        }
-        .navbar-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-        }
-        .navbar-toggle.active span:nth-child(2) {
-        transform: scale(0);
-        }
-        .navbar-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
-        }     
-        .navbar-toggle.active {
-        transform: rotate(45deg);
-        }
-        .navbar-toggle.active ~ .navbar-menu {
-        display: block;
-        position: absolute;
-        top: 60px;
-        width: 100%;
-        background-color: #333;
-        padding: 10px 20px;
-        }
-        .navbar-menu a {
-        display: block;
-        padding: 10px 0;
-        border-bottom: 1px solid white;
-        }
+.navbar-menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 50%;
+height: 100%;
+}    
+.navbar-menu a {
+font-size: 1.125rem;
+text-decoration: none;
+color: white;
+padding: 0 0.625rem;
+}    
+.navbar-toggle {
+display: none;
+cursor: pointer;
+}    
+.navbar-toggle span {
+display: block;
+width: 25px;
+height: 3px;
+background-color: white;
+margin: 0.313rem;
+transition: transform 0.3s ease-in-out;
+}
+.navbar-menu {
+display: none;
+}
+.navbar-toggle {
+display: block;
+}
+.navbar-toggle.active span:nth-child(1) {
+transform: rotate(45deg) translate(5px, 5px);
+}
+.navbar-toggle.active span:nth-child(2) {
+transform: scale(0);
+}
+.navbar-toggle.active span:nth-child(3) {
+transform: rotate(-45deg) translate(5px, -5px);
+}     
+.navbar-toggle.active {
+transform: rotate(45deg);
+}
+.navbar-toggle.active ~ .navbar-menu {
+display: block;
+position: absolute;
+top: 60px;
+width: 100%;
+background-color: #333;
+padding: 0.625rem 1.25rem;
+}
+.navbar-menu a {
+display: block;
+padding: 0.625rem 0;
+border-bottom: 1px solid white;
+}
 header ul {
-    width: 30px;
-    height: 30px;
-    background: #34A58A;
-    justify-content: flex-end;
-    border-top: 2px solid white;
-    position: relative;
+width: 30px;
+height: 30px;
+background: #34A58A;
+justify-content: flex-end;
+border-top: 2px solid white;
+position: relative;
 }
 footer{
-height: 1125px;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -442,5 +436,19 @@ width: auto;
 max-width: auto;
 padding: 0;
 align-items: center;
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+}
+#logo1 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#logo2 {
+    width: 150px;
+    height: 100px;
+    margin: auto;
 }
 }
